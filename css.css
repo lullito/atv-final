@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(232, 255, 232);
+    background-image: url(Design\ sem\ nome.png);
+}
+
+
+.tabela{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(68, 55, 84);
+    background-color: rgb(222, 186, 232);
+    border-radius: 20px;
+    border-style: dotted;
+    border-color:  rgb(68, 55, 84);;
+    font-size: 30px;
+
+
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .eu{
+    font-size: 15px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: rgb(68, 55, 84);
+    background-color: rgb(255, 252, 206);
+  }
+  
+  .task {
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+}

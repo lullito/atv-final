@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+    <div class="fundo"> 
+        <p>...</p>
+   
+  <div class="tabela">
+    <h1>Lista de Tarefas</h1>
+    <h1 class="eu">Feito por Leticia Emiliano</h1>
+
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Digite uma nova tarefa">
+      <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <div id="taskList"></div>
+
+    <div id="filterButtons">
+      <button onclick="filterTasks('all')">Todas as Tarefas</button>
+      <button onclick="filterTasks('pending')">Tarefas Pendentes</button>
+      <button onclick="filterTasks('completed')">Tarefas Concluídas</button>
+    </div>
+  </div> 
+</div>
+
+  <script src="javascrip.js"></script>
+</body>
+</html>
